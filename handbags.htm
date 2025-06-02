@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="refresh" content="5; URL='/handbags?bm-verify=AAQAAAAH_____6GltllnHR434VMQeKD2BEkdczg28YKsLY_vnuH8m3CVCWgQF59njE-jqIWLJFWBr2CL2sR7lTH6fYaNLnLzGc4llC6MpqWSSAUHSRH56_xhyl7v9XFG65ogr_Ubk4e0Ow6QbEJTOCU5PHGOQ_nqgYHcUroYgyFPXS8dIwCFE60MkMZ8Hu6QOVZZn76Jo7gV6Nf7m31Ntv0jJfjKgpIhZXN3vjTaK3Oza64BOloE8oZUAXQa3LK_udFcq8Xw3cyYp1AyTXMHKI4'" />
+    <title>&nbsp;</title>
+    <script>
+        var i = 1690707289;
+        var j = i + Number("7986" + "57578");
+    </script>
+  </head>
+    <noscript>
+      <iframe style="border: none; height: 100%; width: 100%;" src=""></iframe>
+    </noscript>
+    <script>
+          var xhr = new XMLHttpRequest();
+          xhr.withCredentials = true;
+          xhr.addEventListener("loadend", function() {
+              try {
+                  var data = JSON.parse(xhr.responseText);
+                  if (data.hasOwnProperty('reload')) {
+                      if (data["reload"] == true) {
+                        window.location.replace(window.location.href.replace(/[&?]bm-verify=[^#]*/, ""));
+                        if(window.location.hash){
+                          window.location.reload();
+                        }
+                      }
+                  } else if (data.hasOwnProperty('location')) {
+                      window.location.replace(data["location"]);
+
+                  } else {
+                      window.location.reload();
+                  }
+              } catch (e) {
+                  var data = {}
+                  window.location.reload();
+              }
+          });
+          xhr.open("POST", "/_sec/verify?provider=interstitial", false);
+          xhr.setRequestHeader("Content-Type", "application/json");
+          xhr.send(JSON.stringify({
+              "bm-verify": "AAQAAAAH//////yphGMciKxUlOY5hI34kHSfn6hhEY0frNZh0xOSwGRjwMVvrd7o3W2/LROWd2IRmbtWQ+bRdTNkEcGQ78JhEte6ZA5OKETWtwZqB77aoo6XPUsSldVilxhZSuty/qUJbJQiEuI5E4zZL6JtnWG0OjG6Qe0iaPe3KdYhSsfnq2C6L9MtlHaBsFNnHsR0g6asq3gmNIhsP2wbYo9+W7RWFfhd7cqATsyetvxAHFq0CUHnjP9NvfK+V/TY7wQWazje0CAOFw7QfvQA+9exCcx8Ht0dMOaaf5wl",
+              "pow": j
+          }));
+    </script>
+  </body>
+</html>
+                              
